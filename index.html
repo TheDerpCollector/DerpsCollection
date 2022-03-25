@@ -1,0 +1,111 @@
+---
+release_only: true
+---
+<html>
+<head>
+	<script>
+		function copy_to_clipboard(element) {
+			navigator.clipboard.writeText("[img]" + element.src + "[/img]");
+		}
+	</script>
+	<style>
+		body {
+			background-color: #4E6284;
+			font-family: "Helvetica Neue", tahoma, verdana, sans-serif;
+			font-size: 12px;
+			color: #ccc;
+		}
+	
+		img {
+			max-width: 75%;
+			cursor: pointer;
+		}
+	
+		table {
+			width: 100%;
+			border: 1px dashed #7484A0;
+			font-family: "Helvetica Neue", tahoma, verdana, sans-serif;
+			font-size: 12px;
+			color: #FFFFFF;
+			border-collapse: collapse;
+		}
+	
+		th, td {
+			padding: 5px;
+			white-space: pre;
+		}
+	
+		th {
+			font-weight: bold;
+			font-size: 11px;
+			color: #FFFFFF;
+			border-bottom: 1px solid #7484A0;
+			text-align: left;
+		}
+	
+		tr {
+			border-bottom: 1px dashed #7484A0;
+		}
+	
+		tr:first-child {
+			border-bottom: none;
+		}
+	
+		tr:last-child {
+			border-bottom: none;
+		}
+	
+		.content {
+			max-width: 1000px;
+			margin: auto;
+		}
+	</style>
+	</head>
+	<body bgcolor="#E5E5E5" text="#000000" link="#006699" vlink="#5493B4">
+		<div class="content">
+			<table>
+				<tr>
+					<th>Image</th>
+					<th>Title</th>
+					<th>Creator</th>
+				</tr>
+
+				<!-- <tr>
+					<td><img onclick="copy_to_clipboard(this)" src="derp.png" alt=":derp:" /></td>
+					<td>asd</td>
+					<td>asd</td>
+				</tr>
+				<tr>
+					<td>asd</td>
+					<td>asd</td>
+					<td>asd</td>
+				</tr>
+				<tr>
+					<td>asd</td>
+					<td>asd</td>
+					<td>asd</td>
+				</tr> -->
+
+			{% for image in site.static_files %}
+				{% if image.extname contains 'jpg' or image.extname contains 'jpeg' or image.extname contains 'png' or image.extname contains 'gif' %}
+					<tr>
+						<td width="100%" align="center"><img onclick="copy_to_clipboard(this)" src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" /></td>
+						{% assign derp_info = site.derps[image.name] %}
+						{% if derp_info.name %}
+						<td>{{ derp_info.name }}</td>
+						{% else %}
+						<td>{{ image.basename }}</td>
+						{% endif %}
+
+						{% if derp_info.credit %}
+						<td>{{ derp_info.credit }}</td>
+						{% else %}
+						<td>Unknown</td>
+						{% endif %}
+					</tr>
+				{% endif %}
+			{% endfor %}
+			</table>
+		</div>
+	</body>
+</html>
