@@ -197,8 +197,9 @@ derps:
     credit: 'Leo Natan'
     isImage: true
   derp_thief.png:
-    name: 'Derp Thief'
+    name: 'Derp Thi4f'
     credit: 'Leo Natan'
+    isImage: true
   derp_to_the_derpth.png:
     name: 'Derp to the Derpth Degree'
     credit: 'Interinactive'
@@ -364,4 +365,153 @@ derps:
     name: 'Derp Depth Map'
     credit: 'Leo Natan'
     isImage: true
-    
+  derp_cevat_orly_rise.gif:
+    name: 'Cevat Orly? Ryse Derp'
+    credit: 'ixigia'
+  derp_cloud_gaming.gif:
+    name: "Google Stadia's Power of the Derp Cloud"
+    credit: 'ixigia'
+  derp_assassins_creed_valhalla.gif:
+    name: "Assassin's Derp Valhalla"
+    credit: 'ixigia'
+  derp_assassins_creed_origins.gif:
+    name: "Assassin's Derp Origins"
+    credit: 'ixigia'
+  derp_assassins_creed.gif:
+    name: "Assassin's Derp"
+    credit: 'ixigia'
+  derp_pes.gif:
+    name: 'Derp Evolution Soccer'
+    credit: 'ixigia'
+  derp_forza_horizon.gif:
+    name: 'Forza Hurrizon 5 Derp'
+    credit: 'ixigia'
+  derp_thief_ixi.gif:
+    name: 'Thi4f No Jump Derp'
+    credit: 'ixigia'
+  derp_rtx_on_off.gif:
+    name: 'RTX On/Off Derp'
+    credit: 'ixigia'
+  derp_god_of_war.gif:
+    name: 'God of Derp'
+    credit: 'ixigia'
+  derp_matrix4.gif:
+    name: 'The Matrix Woahderps'
+    credit: 'ixigia'
+  derp_far_cry_primal.gif:
+    name: 'Far Derp Primal'
+    credit: 'ixigia'
+  derp_watch_dogs_2.gif:
+    name: 'Watch Derps 2 XP'
+    credit: 'ixigia'
+  derp_kojima_likes.gif:
+    name: 'Kojima Japcrap Likes Derp'
+    credit: 'ixigia'
+  derp_tomb_raider.gif:
+    name: 'Shadow of the Rambo Derp Raider'
+    credit: 'ixigia'
+  derp_fast_furious.gif:
+    name: 'Derp and Hurrious: Mi Familia'
+    credit: 'ixigia'
+  derp_aspect_ratio.gif:
+    name: 'The Evil Within Cinematic Black Bars'
+    credit: 'ixigia'
+  derp_homefront.gif:
+    name: 'Homefront Murica Derp Yeah'
+    credit: 'ixigia'
+  derp_vanquish.gif:
+    name: 'Vanquish Derp'
+    credit: 'ixigia'
+  ChernoDerp.png:
+    name: 'Chernoderp'
+    credit: 'ixigia'
+  derp_call_of_duty.gif:
+    name: 'Cow a Doody Black Ops 3 Derp'
+    credit: 'ixigia'
+  derp_call_of_duty_ww2.gif:
+    name: 'Cow a Doody WWII Derp'
+    credit: 'ixigia'
+  derp_battlefield.png:
+    name: 'Battlederp'
+    credit: 'ixigia'
+  derp_baby_games.png:
+    name: 'Derp Gaming'
+    credit: 'ixigia'
+  derp_aitd.gif:
+    name: 'Alone in the Derp: Illumination'
+    credit: 'ixigia'
+  derp_dexter.png:
+    name: 'Derpxter'
+    credit: 'ixigia'
+  derp_rapthurr.gif:
+    name: "Everybody's Gone to the Rapthurr"
+    credit: 'ixigia'
+  derp_star_citizen.gif:
+    name: 'Robberyts Derp Indurrstries'
+    credit: 'ixigia'
+  derp_italy_eu.gif:
+    name: 'Italy Contributions to EU'
+    credit: 'ixigia'
+  derp_mspaint.png:
+    name: 'MSPaint.exe Derp'
+    credit: 'ixigia'
+  derp_grammar_nazi_feminazi.png:
+    name: 'Grammar Feminazi Derp'
+    credit: 'ixigia'
+  derp_polygon.png:
+    name: 'Polylol Derp'
+    credit: 'ixigia'
+  derp_dragon_age.png:
+    name: 'Durrgon Age: Derpisition'
+    credit: 'ixigia'
+    isImage: true
+  derp_nfs.png:
+    name: 'Need for Speed: The Derp'
+    credit: 'ixigia'
+    isImage: true
+  derp_take_two_rally.png:
+    name: 'Durrt Rally Take 2 Edition'
+    credit: 'ixigia'
+    isImage: true
+  derp_ghost_recon.png:
+    name: "Tom Calancy's Derp Recon"
+    credit: 'ixigia'
+    isImage: true
+  Molyderpeux.jpg:
+    name: 'Molyderpeux'
+    credit: 'ixigia'
+    isImage: true
+  derp_thi4f_cover.png:
+    name: "Thi4f's Official Derp Cover"
+    credit: 'ixigia'
+    isImage: true
+  derp_colonial_marines.jpg:
+    name: 'Colon Marines Derp'
+    credit: 'ixigia'
+    isImage: true
+  derp_effects.gif:
+    name: 'Nextgen Effects Derp'
+    credit: 'ixigia'
+    isImage: true
+  derp_moba_mspaint.png:
+    name: 'MOBA MSPaint Derp'
+    credit: 'ixigia'
+    isImage: true
+  derp_freitard.png:
+    name: 'Freitard Derp'
+    credit: 'ixigia'
+  derp_f1.png:
+    name: 'Formula Derp'
+    credit: 'ixigia'
+    isImage: true
+  derp_rome_2.jpg:
+    name: 'Rome II "1.0" Total Hurr Durr'
+    credit: 'ixigia'
+    isImage: true
+  derp_syndicate.jpg:
+    name: 'Syndicate 2012 Derp'
+    credit: 'ixigia'
+    isImage: true
+  derp_usa_politics.gif:
+    name: 'USA Derp Politics'
+    credit: 'ixigia'
