@@ -69,42 +69,59 @@ release_only: true
 					<th>Title</th>
 					<th>Creator</th>
 				</tr>
-
-				<!-- <tr>
-					<td><img onclick="copy_to_clipboard(this)" src="derp.png" alt=":derp:" /></td>
-					<td>asd</td>
-					<td>asd</td>
-				</tr>
-				<tr>
-					<td>asd</td>
-					<td>asd</td>
-					<td>asd</td>
-				</tr>
-				<tr>
-					<td>asd</td>
-					<td>asd</td>
-					<td>asd</td>
-				</tr> -->
-
-			{% for image in site.static_files %}
-				{% if image.extname contains 'jpg' or image.extname contains 'jpeg' or image.extname contains 'png' or image.extname contains 'gif' %}
-					<tr>
-						<td width="100%" align="center"><img onclick="copy_to_clipboard(this)" src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" /></td>
+				{% assign all_images = site.static_files | sort: "basename" %}
+				{% for image in all_images %}
+					{% if image.extname contains 'jpg' or image.extname contains 'jpeg' or image.extname contains 'png' or image.extname contains 'gif' %}
 						{% assign derp_info = site.derps[image.name] %}
-						{% if derp_info.name %}
-						<td>{{ derp_info.name }}</td>
-						{% else %}
-						<td>{{ image.basename }}</td>
-						{% endif %}
+						{% unless derp_info.isImage %}
+						<tr>
+							<td width="100%" align="center"><img onclick="copy_to_clipboard(this)" src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" /></td>
+							{% if derp_info.name %}
+							<td>{{ derp_info.name }}</td>
+							{% else %}
+							<td>{{ image.basename }}</td>
+							{% endif %}
 
-						{% if derp_info.credit %}
-						<td>{{ derp_info.credit }}</td>
-						{% else %}
-						<td>Unknown</td>
+							{% if derp_info.credit %}
+							<td>{{ derp_info.credit }}</td>
+							{% else %}
+							<td>Unknown</td>
+							{% endif %}
+						</tr>
+						{% endunless %}
+					{% endif %}
+				{% endfor %}
+			</table>
+			<br />
+			<h3>Images</h3>
+			<table>
+				<tr>
+					<th>Image</th>
+					<th>Title</th>
+					<th>Creator</th>
+				</tr>
+				{% assign all_images = site.static_files | sort: "basename" %}
+				{% for image in all_images %}
+					{% if image.extname contains 'jpg' or image.extname contains 'jpeg' or image.extname contains 'png' or image.extname contains 'gif' %}
+						{% assign derp_info = site.derps[image.name] %}
+						{% if derp_info.isImage %}
+						<tr>
+							<td width="100%" align="center"><img onclick="copy_to_clipboard(this)" src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" /></td>
+							{% if derp_info.name %}
+							<td>{{ derp_info.name }}</td>
+							{% else %}
+							<td>{{ image.basename }}</td>
+							{% endif %}
+
+							{% if derp_info.credit %}
+							<td>{{ derp_info.credit }}</td>
+							{% else %}
+							<td>Unknown</td>
+							{% endif %}
+						</tr>
 						{% endif %}
-					</tr>
-				{% endif %}
-			{% endfor %}
+					{% endif %}
+				{% endfor %}
 			</table>
 		</div>
 	</body>

@@ -32,6 +32,7 @@ derps:
   derp_carpet.gif:
     name: 'Derp Carpet (Murder Derp Kill)'
     credit: 'Leo Natan'
+    isImage: true
   derp_chucktesta.gif:
     name: 'Derp? Nope Chuck Testa'
     credit: 'Leo Natan'
@@ -119,6 +120,7 @@ derps:
   derp_jezus.gif:
     name: 'Derp Jesus'
     credit: 'Leo Natan'
+    isImage: true
   derp_kinect_arab.gif:
     name: 'Arab Kinect Derp'
     credit: 'Leo Natan'
@@ -182,15 +184,18 @@ derps:
   derp_smooth.gif:
     name: 'Smooth 60 Derps per Second'
     credit: 'Leo Natan'
+    isImage: true
   derp_sparta.gif:
     name: 'This is NFOHUMP!'
     credit: 'Leo Natan'
   derp_stallman_tell_me_more.png:
     name: 'Please, Tell Me More'
     credit: 'Leo Natan'
+    isImage: true
   derp_stallman.png:
     name: 'Derp Stallman'
     credit: 'Leo Natan'
+    isImage: true
   derp_thief.png:
     name: 'Derp Thief'
     credit: 'Leo Natan'
@@ -202,9 +207,6 @@ derps:
     credit: 'Leo Natan'
   derp_usa_fat.png:
     name: 'Fat USA Derp'
-    credit: 'Leo Natan'
-  derp_usa_wtf.png:
-    name: 'WTF USA Derp'
     credit: 'Leo Natan'
   derp_usa.png:
     name: 'USA Derp'
@@ -227,6 +229,7 @@ derps:
   derp-sistine_chapel.png:
     name: 'Sistine Chapel Derp'
     credit: 'Leo Natan'
+    isImage: true
   derp-upside.png:
     name: 'Upside Derp'
     credit: 'Leo Natan'
@@ -234,7 +237,7 @@ derps:
     name: ':derp:'
     credit: 'inz'
   derpalien.png:
-    name: 'Derpalien'
+    name: 'Derp Alien'
     credit: 'Leo Natan'
   derpared.gif:
     name: 'Derpared Sense'
@@ -263,6 +266,7 @@ derps:
   derpspacey.png:
     name: 'Derp Spacey'
     credit: 'Leo Natan'
+    isImage: true
   exoderp.gif:
     name: 'Exoderp'
     credit: 'Leo Natan'
@@ -284,9 +288,10 @@ derps:
   move-derp.gif:
     name: 'PS Move Derp'
     credit: 'Leo Natan'
-  pbzlu.jpg:
+  sausje.jpg:
     name: 'Sausje (Derp)'
     credit: 'Leo Natan'
+    isImage: true
   pending_derp.gif:
     name: 'Pending Derp'
     credit: 'Unknown'
@@ -305,8 +310,9 @@ derps:
   sfl9wo.png:
     name: 'Crystal Derp Ballz'
     credit: 'Leo Natan'
-  texas_grandma_derp.png:
-    name: 'Texas Grandma Derp'
+    isImage: true
+  derp_usa_texas_grandma_derp.png:
+    name: 'Texas Grandma USA Derp'
     credit: 'Leo Natan'
   the_d.png:
     name: 'The D[erp]'
@@ -317,3 +323,45 @@ derps:
   derp_windows.png:
     name: 'Windows Derp 8/10/11'
     credit: 'Leo Natan'
+  derp_medal_of_honor.png:
+    name: 'Medal of Honor Derp'
+    credit: 'Interinactive'
+  derp_evolution.png:
+    name: 'Derp Evolution'
+    credit: 'Interinactive'
+    isImage: true
+  driver_derp.jpg:
+    name: 'Driver Derp'
+    credit: 'Interinactive'
+    isImage: true
+  derpfall.gif:
+    name: 'Derpfall'
+    credit: 'Interinactive'
+    isImage: true
+  derpfan.gif:
+    name: 'Derpfan'
+    credit: 'Interinactive'
+  derp_cloud.png:
+    name: 'Derp Cloud'
+    credit: 'Interinactive'
+  derp_rate_0.png:
+    name: 'Derp Rating'
+    credit: 'Interinactive'
+  derp_rate_1.png:
+    name: 'Derp Rating'
+    credit: 'Interinactive'
+  derp_medal_of_honor.png:
+    name: 'Medal of Honor Derp'
+    credit: 'Interinactive'
+  derp_medal_of_honor.png:
+    name: 'Medal of Honor Derp'
+    credit: 'Interinactive'
+  360derp.jpg:
+    name: '360 Derp'
+    credit: 'Unknown'
+    isImage: true
+  depth_derp.png:
+    name: 'Derp Depth Map'
+    credit: 'Leo Natan'
+    isImage: true
+    
