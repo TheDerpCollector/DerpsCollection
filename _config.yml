@@ -188,6 +188,7 @@ derps:
   derp_sparta.gif:
     name: 'This is NFOHUMP!'
     credit: 'Leo Natan'
+    hideFromPicker: true
   derp_stallman_tell_me_more.png:
     name: 'Please, Tell Me More'
     credit: 'Leo Natan'
@@ -264,6 +265,7 @@ derps:
   derpshield.png:
     name: 'Sasuje Derpshield'
     credit: 'Leo Natan'
+    hideFromPicker: true
   derpspacey.png:
     name: 'Derp Spacey'
     credit: 'Leo Natan'
@@ -274,6 +276,7 @@ derps:
   horror_derp_kinect.gif:
     name: 'Horror Derp Kinect'
     credit: 'Leo Natan'
+    hideFromPicker: true
   horror_derp.png:
     name: 'Horror Derp'
     credit: 'Leo Natan'
@@ -299,15 +302,19 @@ derps:
   remove_derp_glasses_still_derp.gif:
     name: 'Remove Derp Glasses, Still Derp'
     credit: 'Leo Natan'
+    hideFromPicker: true
   remove_derp_glasses.gif:
     name: 'Remove Derp Glasses'
     credit: 'Leo Natan'
+    hideFromPicker: true
   s5fskj.png:
     name: 'Console vs PC'
     credit: 'Leo Natan'
+    hideFromPicker: true
   sausage-derp.png:
     name: 'Sausje (Derp)'
     credit: 'Leo Natan'
+    hideFromPicker: true
   sfl9wo.png:
     name: 'Crystal Derp Ballz'
     credit: 'Leo Natan'
@@ -318,6 +325,7 @@ derps:
   the_d.png:
     name: 'The D[erp]'
     credit: 'Leo Natan'
+    hideFromPicker: true
   wallderp.png:
     name: 'Wallderp'
     credit: 'Leo Natan'
@@ -440,6 +448,7 @@ derps:
   derp_aitd.gif:
     name: 'Alone in the Derp: Illumination'
     credit: 'ixigia'
+    hideFromPicker: true
   derp_dexter.png:
     name: 'Derpxter'
     credit: 'ixigia'
