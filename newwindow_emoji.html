@@ -41,8 +41,8 @@ function insertAtCaret(obj, myValue) {
 		
 function insert_smiley(obj) {
 	const text = obj.getAttribute('code');
-	const i = opener.document.forms['post'].message;
-    insertAtCaret(i, ' ' + text + ' ');
+	
+	opener.postMessage(' ' + text + ' ', '*');
 }
 //-->
 </script>
