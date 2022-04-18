@@ -11,7 +11,7 @@ release_only: true
 			{% else %}
 				{% assign derp_name = image.basename %}
 			{% endif %}
-			<div style="background-image: url('https://thederpcollector.github.io{{ site.baseurl }}{{ image.path }}');" title="{{ derp_name }}" code="[img]https://thederpcollector.github.io{{ site.baseurl }}{{ image.path }}[/img]" onclick="javascript: insert_smiley(this);"></div>
+			<div style="background-image: url('https://thederpcollector.github.io{{ site.baseurl }}{{ image.path }}'); background-size: 50px;" title="{{ derp_name }}" code="[img]https://thederpcollector.github.io{{ site.baseurl }}{{ image.path }}[/img]" onclick="javascript: insert_smiley(this);"></div>
 		{% endunless %}
 	{% endif %}
 {% endfor %}
