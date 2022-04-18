@@ -2,9 +2,11 @@ derps:
   curiosity_derp_win.gif:
     name: 'Curiosity Derp (Windows)'
     credit: 'Leo Natan'
+    hideFromPicker: true
   curiosity_derp.gif:
     name: 'Curiosity Derp'
     credit: 'Leo Natan'
+    hideFromPicker: true
   derp_angel.png:
     name: 'Derp Angel'
     credit: 'Leo Natan'
@@ -228,6 +230,7 @@ derps:
   derp-sc2.gif:
     name: 'StarDerp 2'
     credit: 'Leo Natan'
+    hideFromPicker: true
   derp-sistine_chapel.png:
     name: 'Sistine Chapel Derp'
     credit: 'Leo Natan'
@@ -238,6 +241,7 @@ derps:
   derp.png:
     name: ':derp:'
     credit: 'inz'
+    hideFromPicker: true
   derpalien.png:
     name: 'Derp Alien'
     credit: 'Leo Natan'
@@ -424,6 +428,7 @@ derps:
   derp_aspect_ratio.gif:
     name: 'The Evil Within Cinematic Black Bars'
     credit: 'ixigia'
+    hideFromPicker: true
   derp_homefront.gif:
     name: 'Homefront Murica Derp Yeah'
     credit: 'ixigia'
