@@ -531,5 +531,5 @@ derps:
     credit: 'ixigia'
   linux.gif:
     name: 'Linux Derp'
-    credit: 'Leo Natan'
-    
+    credit: '?'
+    isImage: true    
