@@ -135,6 +135,9 @@ derps:
   derp_LAW.gif:
     name: 'Horrorderp is teh Law'
     credit: 'Leo Natan'
+  derp_lip_fillers.png:
+    name: 'Derp Lip Fillers'
+    credit: 'LeoNatan'
   derp_manhattan.png:
     name: 'Manhattan Derp'
     credit: 'Leo Natan'
@@ -532,4 +535,4 @@ derps:
   linux.gif:
     name: 'Linux Derp'
     credit: '?'
-    isImage: true    
+    isImage: true
