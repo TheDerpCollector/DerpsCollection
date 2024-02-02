@@ -20,7 +20,7 @@ derps:
     name: 'Awesome Derp in a Button'
     credit: 'Leo Natan'
   derp_big_boobs.png:
-    name: 'My Eyes are up Here'
+    name: 'My Eyes are Up Here'
     credit: 'Leo Natan'
   derp_book_cover.png:
     name: "Don't Judge a Derp by its Cover"
@@ -202,6 +202,9 @@ derps:
     name: 'Derp Stallman'
     credit: 'Leo Natan'
     isImage: true
+  derp_stray.gif:
+    name: 'Stray Cat Derp'
+    credit: 'ixigia'
   derp_thief.png:
     name: 'Derp Thi4f'
     credit: 'Leo Natan'
