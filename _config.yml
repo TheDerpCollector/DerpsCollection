@@ -539,3 +539,7 @@ derps:
     name: 'Linux Derp'
     credit: '?'
     isImage: true
+  fine.gif:
+    name: 'This is Fine'
+    credit: '?'
+    isImage: true
