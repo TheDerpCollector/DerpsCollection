@@ -5,15 +5,18 @@ release_only: true
 {% for image in all_images %}
 	{% if image.extname contains 'jpg' or image.extname contains 'jpeg' or image.extname contains 'png' or image.extname contains 'gif' %}
 		{% assign derp_info = site.derps[image.name] %}
+		{% if derp_info == null %}
+			{% continue %}
+		{% endif %}
 		{% unless derp_info.isImage %}
-		{% unless derp_info.hideFromPicker %}
-			{% if derp_info.name %}
-				{% assign derp_name = derp_info.name %}
-			{% else %}
-				{% assign derp_name = image.basename %}
-			{% endif %}
+			{% unless derp_info.hideFromPicker %}
+				{% if derp_info.name %}
+					{% assign derp_name = derp_info.name %}
+				{% else %}
+					{% assign derp_name = image.basename %}
+				{% endif %}
 			<div name="quick_derp" style='display: flex; align-items: center; justify-content: center;'><img style='max-width: 50px; max-height: 50px; width: auto; height: auto;' src='https://thederpcollector.github.io{{ site.baseurl }}{{ image.path }}' title="{{ derp_name }}" code="[img]https://thederpcollector.github.io{{ site.baseurl }}{{ image.path }}[/img]" onclick="javascript: insert_smiley(this);" /></div>
-		{% endunless %}
+			{% endunless %}
 		{% endunless %}
 	{% endif %}
 {% endfor %}
