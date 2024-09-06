@@ -141,6 +141,9 @@ derps:
   derp_manhattan.png:
     name: 'Manhattan Derp'
     credit: 'Leo Natan'
+  derp_melee.gif:
+    name: 'Modern Melee Derp'
+    credit: 'ixigia'
   derp_metacritic.png:
     name: 'Derpacritic'
     credit: 'Interinactive'
