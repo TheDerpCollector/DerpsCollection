@@ -47,6 +47,9 @@ derps:
   derp_console_couch.png:
     name: 'Console Couch Derp'
     credit: 'Leo Natan'
+  cool_console_couch.png:
+    name: 'Cool Couch Derp'
+    credit: 'Leo Natan'
   derp_console_cover.png:
     name: 'Cover Shooter Derp'
     credit: 'Leo Natan'
@@ -546,3 +549,31 @@ derps:
     name: 'This is Fine'
     credit: '?'
     isImage: true
+others:
+  ferrari-gearbox.png:
+    name: 'Ferrari Gearbox'
+  GreatUncleanOneLOL.gif:
+    name: 'Great Unclean One LOL (W40K)'
+  icon_lol_blue.gif:
+    name: 'Blue LOL'
+  piracy.png:
+    name: 'Piracy'
+  unreal-angina-hor.png:
+    name: 'Unreal Angina (Horizontal)'
+  unreal-angina-ver.png:
+    name: 'Unreal Angina (Vertical)'
+  WelcomeToNfohump.gif:
+    name: 'Welcome to NFOHump!'
+groks:
+  grok_1.png:
+    name: '@gRoK iS tHiS tRuE?'
+  grok_2.png:
+    name: 'wHaT dO yOu THiNk @gRoK?'  
+  grok_3.png:
+    name: '@GrOk iS THiS TrUe?'
+  grok_4.png:
+    name: '@gRoK iS tHiS tRuE?'
+  grok_5.png:
+    name: 'eXpLAiN tHiS @gRoK'  
+  grok_6.png:
+    name: 'wHaT dO yOu ThiNk AbOuT tHiS @gRoK?'
