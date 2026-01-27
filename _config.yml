@@ -1,4 +1,8 @@
 derps:
+  curiosity_derp_xbox_win.gif:
+    name: 'Curiosity Derp (Future Xbox)'
+    credit: 'Leo Natan'
+    hideFromPicker: true
   curiosity_derp_win.gif:
     name: 'Curiosity Derp (Windows)'
     credit: 'Leo Natan'
@@ -120,6 +124,9 @@ derps:
     name: 'HD Derp'
     credit: 'Leo Natan'
   derp_japcrap.png:
+    name: 'Japcrap Derp'
+    credit: 'Leo Natan'
+  derp_japcrap_hair.png:
     name: 'Japcrap Derp'
     credit: 'Leo Natan'
   derp_jezus.gif:
