@@ -28,17 +28,6 @@ release_only: true
 
 <script language="javascript" type="text/javascript">
 <!--
-function insertAtCaret(obj, myValue) {
-    var startPos = obj.selectionStart;
-    var endPos = obj.selectionEnd;
-    var scrollTop = obj.scrollTop;
-    obj.value = obj.value.substring(0, startPos)+myValue+obj.value.substring(endPos,obj.value.length);
-    obj.focus();
-    obj.selectionStart = startPos + myValue.length;
-    obj.selectionEnd = startPos + myValue.length;
-    obj.scrollTop = scrollTop;
-}
-		
 function insert_smiley(obj) {
 	const text = obj.getAttribute('code');
 	
@@ -60,7 +49,7 @@ function insert_smiley(obj) {
 {% for image in all_images %}
 	{% if image.extname contains 'jpg' or image.extname contains 'jpeg' or image.extname contains 'png' or image.extname contains 'gif' %}
 		{% assign derp_info = site.derps[image.name] %}
-		{% if derp_info == null %}
+		{% if derp_info == null or derp_info.isImage or derp_info.hideFromPicker %}
 			{% continue %}
 		{% endif %}
 		{% if derp_info.name %}
@@ -75,7 +64,10 @@ function insert_smiley(obj) {
 				</td>
 			</tr>
 			<tr>
-				<td align="center"><br><span class="genmed"><a href="javascript:window.close();" class="genmed">Close Window</a></span></td>
+				<td align="center"><br><span class="genmed"><a href="https://thederpcollector.github.io/DerpsCollection/?picker=1" class="genmed">All Derps</a> | <a href="https://thederpcollector.github.io/DerpsCollection/others.html?picker=1" class="genmed">Other</a> | <a href="https://thederpcollector.github.io/DerpsCollection/grok.html?picker=1" class="genmed">gRoK</a></span></td>	
+			</tr>
+			<tr>				
+				<td align="center"><span class="genmed"><a href="javascript:window.close();" class="genmed">Close Window</a></span></td>
 			</tr>
 		</tbody></table></td>
 	</tr>

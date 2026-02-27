@@ -453,7 +453,6 @@ derps:
   derp_aspect_ratio.gif:
     name: 'The Evil Within Cinematic Black Bars'
     credit: 'ixigia'
-    hideFromPicker: true
   derp_homefront.gif:
     name: 'Homefront Murica Derp Yeah'
     credit: 'ixigia'
@@ -557,7 +556,6 @@ derps:
   linux.gif:
     name: 'Linux Derp'
     credit: '?'
-    isImage: true
   fine.gif:
     name: 'This is Fine'
     credit: '?'
