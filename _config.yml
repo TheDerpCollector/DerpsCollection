@@ -81,6 +81,10 @@ derps:
   derp_diversity.png:
     name: 'Diversity Derp'
     credit: 'Léo Natan'
+  derp_DLSS5.png:
+    name: 'DLSS5 Derp'
+    credit: 'Léo Natan'
+    isImage: true
   derp_drool.png:
     name: 'Drool Derp'
     credit: 'Léo Natan'
@@ -147,7 +151,7 @@ derps:
     credit: 'Léo Natan'
   derp_lip_fillers.png:
     name: 'Derp Lip Fillers'
-    credit: 'LeoNatan'
+    credit: 'Léo Natan'
   derp_manhattan.png:
     name: 'Manhattan Derp'
     credit: 'Léo Natan'
