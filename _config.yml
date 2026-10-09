@@ -118,6 +118,10 @@ derps:
   derp_HD_durrrr.png:
     name: 'HD Durr'
     credit: 'Léo Natan'
+  derp_HD_durrrr_HDR.png:
+    name: 'HD HDuRr'
+    credit: 'Léo Natan'
+    hideFromPicker: true
   derp_HD_miracle_port.png:
     name: '“““HD””” Miracle Port'
     credit: 'Léo Natan'
@@ -127,6 +131,10 @@ derps:
   derp_HD.png:
     name: 'HD Derp'
     credit: 'Léo Natan'
+  derp_HDR.png:
+    name: 'HD HDRep'
+    credit: 'Léo Natan'
+    hideFromPicker: true
   derp_japcrap.png:
     name: 'Japcrap Derp'
     credit: 'Léo Natan'
@@ -264,6 +272,10 @@ derps:
   derp.png:
     name: ':derp:'
     credit: 'inz'
+    hideFromPicker: true
+  derphdr.png:
+    name: 'HDRep'
+    credit: 'Léo Natan'
     hideFromPicker: true
   derpalien.png:
     name: 'Derp Alien'
