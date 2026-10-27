@@ -26,6 +26,7 @@ derps:
   derp_big_boobs.png:
     name: 'My Eyes are Up Here'
     credit: 'Léo Natan'
+    priority: 1
   derp_book_cover.png:
     name: "Don't Judge a Derp by its Cover"
     credit: 'Léo Natan'
@@ -45,6 +46,7 @@ derps:
   derp_console_cash.png:
     name: 'Console Derp Cash'
     credit: 'Léo Natan'
+    priority: 1
   derp_console_cash_v2.png:
     name: 'Console Derp Cash (v2)'
     credit: 'Léo Natan'
@@ -125,6 +127,7 @@ derps:
   derp_HD_miracle_port.png:
     name: '“““HD””” Miracle Port'
     credit: 'Léo Natan'
+    priority: 1
   derp_HD_steroids.png:
     name: 'HD Steroids Derp'
     credit: 'Léo Natan'
@@ -178,12 +181,14 @@ derps:
   derp_nextgen.gif:
     name: 'Next Gen Derp'
     credit: 'Léo Natan'
+    priority: 1
   derp_noir.gif:
     name: 'Derp Noir'
     credit: 'Léo Natan'
   derp_pew.gif:
     name: 'Pew Pew Pew Derp'
     credit: 'chiv'
+    priority: 1
   derp_piercing.png:
     name: 'Piercing Derp'
     credit: 'Léo Natan'
@@ -202,6 +207,7 @@ derps:
   derp_roflmao.gif:
     name: 'Derp ROTFLMAO'
     credit: 'Léo Natan'
+    priority: 5
   derp_roll.png:
     name: 'Half Derp'
     credit: 'Léo Natan'
@@ -240,6 +246,7 @@ derps:
   derp_tracing.png:
     name: 'Derp Tracing'
     credit: 'Léo Natan'
+    priority: 1
   derp_usa_fat.png:
     name: 'Fat USA Derp'
     credit: 'Léo Natan'
@@ -273,6 +280,7 @@ derps:
     name: ':derp:'
     credit: 'inz'
     hideFromPicker: true
+    priority: 10
   derphdr.png:
     name: 'HDRep'
     credit: 'Léo Natan'
@@ -322,6 +330,7 @@ derps:
   kinect.gif:
     name: 'Kinect Derp'
     credit: 'Léo Natan'
+    priority: 1
   mechderp.png:
     name: 'Mech Derp'
     credit: 'Léo Natan'
@@ -395,9 +404,11 @@ derps:
   derp_rate_0.png:
     name: 'Derp Rating'
     credit: 'Interinactive'
+    priority: 3
   derp_rate_1.png:
     name: 'Derp Rating'
     credit: 'Interinactive'
+    priority: 3
   derp_medal_of_honor.png:
     name: 'Medal of Honor Derp'
     credit: 'Interinactive'
@@ -442,6 +453,7 @@ derps:
   derp_shocked.png:
     name: 'SHOCKING Derp'
     credit: 'Léo Natan'
+    priority: 1
   derp_shocked_hd.png:
     name: 'SHOCKING Derp HD'
     credit: 'Léo Natan'
